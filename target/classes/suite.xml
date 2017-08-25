@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Newtours Site">
+
+	<test name="Complete NewTours Site Test">
+		<classes>
+			<class name="cstech.com.Testngtest.Test.Logintest"></class>
+			<class name="cstech.com.Testngtest.Test.FlightFinder"></class>
+			<class name="cstech.com.Testngtest.Test.SelectFlight"></class>
+			<class name="cstech.com.Testngtest.Test.BookFlight"></class>
+			
+
+			
+		</classes>
+	</test>
+</suite>	

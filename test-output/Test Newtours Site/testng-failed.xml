@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Newtours Site]">
+  <test name="Complete NewTours Site Test">
+    <classes>
+      <class name="cstech.com.Testngtest.Test.Logintest"/>
+      <class name="cstech.com.Testngtest.Test.FlightFinder"/>
+      <class name="cstech.com.Testngtest.Test.SelectFlight"/>
+      <class name="cstech.com.Testngtest.Test.BookFlight"/>
+    </classes>
+  </test> <!-- Complete NewTours Site Test -->
+</suite> <!-- Failed suite [Test Newtours Site] -->

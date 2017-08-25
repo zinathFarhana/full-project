@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Newtours Site" duration-ms="26311" started-at="2017-08-21T11:47:01Z" finished-at="2017-08-21T11:47:27Z">
+    <groups>
+    </groups>
+    <test name="Complete NewTours Site Test" duration-ms="26311" started-at="2017-08-21T11:47:01Z" finished-at="2017-08-21T11:47:27Z">
+      <class name="cstech.com.Testngtest.Test.Logintest">
+        <test-method status="PASS" signature="checkHomePageTitle()[pri:1, instance:cstech.com.Testngtest.Test.Logintest@3532ec19]" name="checkHomePageTitle" duration-ms="8781" started-at="2017-08-21T17:47:01Z" finished-at="2017-08-21T17:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomePageTitle -->
+        <test-method status="PASS" signature="loginTest(java.util.List)[pri:2, instance:cstech.com.Testngtest.Test.Logintest@3532ec19]" name="loginTest" duration-ms="2710" started-at="2017-08-21T17:47:10Z" data-provider="logindataprovider" finished-at="2017-08-21T17:47:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDto [username=demo, password=demo]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- cstech.com.Testngtest.Test.Logintest -->
+      <class name="cstech.com.Testngtest.Test.SelectFlight">
+        <test-method status="PASS" signature="waitforpageload2()[pri:1, instance:cstech.com.Testngtest.Test.SelectFlight@27efef64]" name="waitforpageload2" duration-ms="7" started-at="2017-08-21T17:47:19Z" finished-at="2017-08-21T17:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitforpageload2 -->
+        <test-method status="PASS" signature="SelectFlight2()[pri:2, instance:cstech.com.Testngtest.Test.SelectFlight@27efef64]" name="SelectFlight2" duration-ms="4274" started-at="2017-08-21T17:47:19Z" finished-at="2017-08-21T17:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlight2 -->
+      </class> <!-- cstech.com.Testngtest.Test.SelectFlight -->
+      <class name="cstech.com.Testngtest.Test.FlightFinder">
+        <test-method status="PASS" signature="checkFlightFindPageTitle()[pri:1, instance:cstech.com.Testngtest.Test.FlightFinder@59f99ea]" name="checkFlightFindPageTitle" duration-ms="2796" started-at="2017-08-21T17:47:13Z" finished-at="2017-08-21T17:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFlightFindPageTitle -->
+        <test-method status="PASS" signature="flightfinderTest2(java.util.List)[pri:2, instance:cstech.com.Testngtest.Test.FlightFinder@59f99ea]" name="flightfinderTest2" duration-ms="3480" started-at="2017-08-21T17:47:16Z" data-provider="flightfinderDataProvider" finished-at="2017-08-21T17:47:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[FlightFinderDTO [passengers=2, departingFrom=LondondepartingOnMonth=4, departingOnDate=9ArrivingIn=Paris, returningMonth=4returningDate=2, airlinePreference=Blue Skies Airlines ]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightfinderTest2 -->
+      </class> <!-- cstech.com.Testngtest.Test.FlightFinder -->
+      <class name="cstech.com.Testngtest.Test.BookFlight">
+        <test-method status="PASS" signature="checkBookFlightPageTitle()[pri:1, instance:cstech.com.Testngtest.Test.BookFlight@6f7fd0e6]" name="checkBookFlightPageTitle" duration-ms="114" started-at="2017-08-21T17:47:24Z" finished-at="2017-08-21T17:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBookFlightPageTitle -->
+        <test-method status="PASS" signature="bookflightTest(java.util.List)[pri:2, instance:cstech.com.Testngtest.Test.BookFlight@6f7fd0e6]" name="bookflightTest" duration-ms="3118" started-at="2017-08-21T17:47:24Z" data-provider="bookflightDataProvider" finished-at="2017-08-21T17:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[FlightFinderDTO [First_Name=zinath, Last_Name=farhana, First_Name2=choitiLast_Name2=farhana,Dropdown_Button11=BA, Number=zinath,First_Name4=farhana, Last_Name4=choitiName5=AdaborbillingAddress=Dhaka,billingCity=Adabor,billingState=1207,billingPostalCode=200,billingCountry=null]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookflightTest -->
+      </class> <!-- cstech.com.Testngtest.Test.BookFlight -->
+    </test> <!-- Complete NewTours Site Test -->
+  </suite> <!-- Test Newtours Site -->
+</testng-results>

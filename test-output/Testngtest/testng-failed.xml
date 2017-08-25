@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testngtest]">
+  <test name="Test">
+    <classes>
+      <class name="cstech.com.Testngtest.Utils.DriverManager"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login">
+    <classes>
+      <class name="cstech.com.Testngtest.Test.Logintest">
+        <methods>
+          <include name="pp"/>
+        </methods>
+      </class> <!-- cstech.com.Testngtest.Test.Logintest -->
+    </classes>
+  </test> <!-- Login -->
+  <test name="Login(failed)">
+    <classes>
+      <class name="cstech.com.Testngtest.Test.Logintest">
+        <methods>
+          <include name="pp"/>
+        </methods>
+      </class> <!-- cstech.com.Testngtest.Test.Logintest -->
+      <class name="cstech.com.Testngtest.Utils.DriverManager">
+        <methods>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- cstech.com.Testngtest.Utils.DriverManager -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Testngtest] -->
